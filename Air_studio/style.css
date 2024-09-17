@@ -1,0 +1,72 @@
+
+.container{
+    padding: 30px;
+    max-width: 1247px; 
+    margin: 0 auto;
+}
+
+.header_logo_text{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_menu{
+    display: flex;
+    align-items: center;
+}
+
+.header_menu_items{
+    width: 684px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_menu_item {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+.header_menu_item:hover{
+    color: red;
+}
+.header_burger_menu_img{
+    cursor: pointer;
+}
+
+.header_burger_menu_img{
+    margin-left: 80px;
+    width: 32px;
+    height: 32px;
+}
+
+.section_title{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    width: 439px;
+    height: 20px;
+    margin-left: 380px;
+}
+.main_h1{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 800;
+    width: 676px;
+    margin-left: 280px;
+    color: #E85353;
+    margin-top: 10px;
+}
+.section_img{
+    width: 695px;
+    height: 625px;
+    margin-left: 260px;
+
+}

@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.header {
+    width: 1160px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin: 36px;
+    gap: 30px;
+}
+
+.site-name {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+    width: 102px;
+    height: 24px;
+    top: 2px;
+    left: -398px;
+    display: flex;
+    padding-left: 86px;
+    padding-right: 296px;
+}
+
+.search {
+    color: #718096;
+    padding-right: 186px;
+    gap: 11px;
+}
+
+.text, .text2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content {
+    display: flex;
+    width: 1152px;
+    height: 467px;
+    top: 85px;
+    padding-left: 127px;
+}
+
+.content-image {
+    padding-left: 127px;
+}
+
+.content-title {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+}
+.coffee-title{
+    display: flex;
+}
+
+.main-text{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.31px;
+    text-align: left;
+    width: 328px;
+    height: 36px;
+    top: 296px;
+    left: 127px;
+
+}
+
+.main-card {    
+    display: flex;
+    justify-content: space-between;    
+    margin-bottom: 20px;
+}
+.card-title{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.31px;
+    text-align: left;
+    width: 246.27px;
+    height: 36px;
+    top: 41px;
+    left: 54.28px;
+    margin-left: 85px;
+
+}
+.card-text{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    width: 403.09px;
+    height: 51px;
+    top: 104px;
+    left: 52.27px;
+    margin-left: 85px;
+}
+.card-date{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+    width: 92.48px;
+    height: 15px;
+    top: 185px;
+    left: 54.28px;
+    margin-left: 85px;
+}
+.card-link{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.52px;
+    text-align: left;
+    width: 63.33px;
+    height: 15px;
+    top: 185px;
+    left: 392.03px;
+    text-decoration: none;
+    color: black;
+    margin-left: 200px;
+}
+.card-img{
+    width: 433.24px;
+    height: 243px;
+    left: 532.76px;
+    margin-right: 600px;
+}
+
+.cards{
+    display: flex;
+}
+
+.card{
+    width: 300px;
+    height: 382px;
+    top: 877px;
+    left: 93px;
+    box-shadow: 2px 2px 4px rgba(147, 150, 144, 0.5);
+    border-radius: 3px;
+    margin-left: 85px;
+    margin-top: 50px;
+
+}
+
+.mcard-img{
+    width: 297px;
+    height: 179px;
+    left: 2px;
+}
+
+.mcard-title{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+    width: 245px;
+    height: 24px;
+    top: 197px;
+    left: 16px;
+    padding: 3px;
+}
+.mcard-text{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    width: 258px;
+    height: 85px;
+    top: 236px;
+    left: 17px;
+    padding: 3px;
+}
+.mcard-date{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+    width: 92px;
+    height: 15px;
+    top: 343px;
+    left: 16px;
+    padding: 3px;
+}
+.mcard-link{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.52px;
+    text-align: left;
+    width: 63px;
+    height: 15px;
+    top: 343px;
+    left: 213px;
+    text-decoration: none;
+    color: black;
+    margin-left: 60px;
+}
+
+.card-2{
+    width: 300px;
+    height: 382px;
+    top: 877px;
+    left: 93px;
+    box-shadow: 2px 2px 4px rgba(147, 150, 144, 0.5);
+    border-radius: 3px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.card-3{
+    width: 300px;
+    height: 382px;
+    top: 877px;
+    left: 93px;
+    box-shadow: 2px 2px 4px rgba(147, 150, 144, 0.5);
+    border-radius: 3px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.main-card-2 {    
+    display: flex;
+    justify-content: space-between;    
+    margin-bottom: 20px;
+    margin-left: 85px;
+    margin-top: 50px;
+   
+}
+.card-title-2{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: left;
+    width: 308px;
+    height: 96px;
+    top: 98px;
+    left: 63px;
+    margin-left: 70px;
+    margin-top: 130px;
+}
+.card-text-2{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    width: 311px;
+    height: 114px;
+    top: 218px;
+    left: 63px;
+    margin-left: 70px;
+
+}
+.card-date-2{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    width: 57px;
+    height: 19px;
+    top: 363px;
+    left: 63px;
+    margin-left: 70px;
+}
+.card-link-2{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: left;
+    width: 84px;
+    height: 19px;
+    top: 363px;
+    left: 291px;
+    text-decoration: none;
+    color: black;
+    margin-left: 90px;
+}
+.card-img-2{
+    width: 525px;
+    height: 500px;
+    left: 440px;
+    margin-right: 570px;
+}
+
+.button{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: left;
+    background-color: blueviolet;
+    width: 122px;
+    height: 37px;
+    top: 1833px;
+    left: 944px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 970px; 
+    border: none;
+    border-radius: 3px;   
+    color: white;
+}
+.hr{
+    margin-top: 20px;
+    width: 1152.01px;
+    border: 1px 0px 0px 0px;
+    margin-left: 110px;
+
+}
+.footer{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    margin-left: 85px;
+    width: 337px;
+    height: 19px;
+    top: 29px;
+    left: 93px;
+    display: flex;
+}
+.footer-icons{
+    display: flex;
+
+}
+.icon-1{
+    margin-top: 10px;
+    margin-left: 550px;
+}
+.icon-2{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.icon-3{
+    margin-top: 10px;
+    margin-left: 30px;
+}
